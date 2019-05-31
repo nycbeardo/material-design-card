@@ -32,6 +32,17 @@ body {
     position: relative;
     border-radius: 10px 10px 0px 0px;
 }
+
+.image:hover {
+  background-image: url('https://images.unsplash.com/photo-1552311981-2a925a7e7769?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80');
+  transition-delay: 0.1s; /* delays for 0.1 second */
+-webkit-transition-delay: 0.1s; /* for Safari & Chrome */
+-webkit-animation: fadein 0.1s; /* Safari, Chrome and Opera > 12.1 */
+-moz-animation: fadein 0.1s; /* Firefox < 16 */
+ -ms-animation: fadein 0.1s; /* Internet Explorer */
+  -o-animation: fadein 0.1s; /* Opera < 12.1 */
+     animation: fadein 0.1s;
+}
 .flair
     {
       background-color: #2B436D;
